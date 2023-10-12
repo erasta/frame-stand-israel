@@ -3,7 +3,7 @@ import './App.css'
 import image1 from './assets/frame_support-israel.png'
 import image2 from './assets/frame_pray.png'
 import image3 from './assets/stand_frame.png'
-import image_init from './assets/girl-face-4.jpeg'
+import image_init from './assets/homer.png'
 import Image from 'image-js'
 
 function App() {
