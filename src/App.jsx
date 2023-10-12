@@ -63,7 +63,7 @@ function App() {
       &nbsp;
       <img src={imageShow} height={300} />
       <br />
-      <input type="file" onChange={onImageChange} />
+      <input type="file" onChange={onImageChange} style={{ color: 'transparent' }} />
       <br />
       <br />
       Click on one of the frames
