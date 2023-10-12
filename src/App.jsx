@@ -66,11 +66,12 @@ function App() {
       <input type="file" onChange={onImageChange} />
       <br />
       <br />
+      Click on one of the frames
       <br />
       <br />
-      <img src={image1} height={300} onClick={() => setEmbedFrame(image1)} />
-      <img src={image2} height={300} onClick={() => setEmbedFrame(image2)} />
-      <img src={image3} height={300} onClick={() => setEmbedFrame(image3)} />
+      <img src={image1} height={200} onClick={() => setEmbedFrame(image1)} style={{ border: '1px solid' }} />
+      <img src={image2} height={200} onClick={() => setEmbedFrame(image2)} style={{ border: '1px solid' }} />
+      <img src={image3} height={200} onClick={() => setEmbedFrame(image3)} style={{ border: '1px solid' }} />
     </>
   )
 }
