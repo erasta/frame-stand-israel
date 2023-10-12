@@ -54,10 +54,17 @@ function App() {
 
   return (
     <>
-      <input type="file" onChange={onImageChange} />
+      <h1>Stand with Israel</h1>
       <br />
       <img alt="preview image" src={image} height={300} />
+      &nbsp;
+      &nbsp;
+      &nbsp;
+      &nbsp;
       <img src={imageShow} height={300} />
+      <br />
+      <input type="file" onChange={onImageChange} />
+      <br />
       <br />
       <br />
       <br />
